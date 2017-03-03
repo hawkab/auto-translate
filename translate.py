@@ -80,6 +80,6 @@ else:
 if file != '' and len(file)>0:
   translate_file(file)
 else: 
- print translate_word ( frm, to, word )
+  print translate_word ( frm, to, word )
 
 
