@@ -77,9 +77,9 @@ else:
 
 
 
-#if file != '' and len(file)>0:
-translate_file(file)
-#else: 
-# print translate_word ( frm, to, word )
+if file != '' and len(file)>0:
+  translate_file(file)
+else: 
+ print translate_word ( frm, to, word )
 
 
